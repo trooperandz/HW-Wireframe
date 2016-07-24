@@ -1,0 +1,123 @@
+/**
+ * Program: style.css
+ * Created: 07/24/2016 by Matt Holland
+ * Located: desktop/bootcamp/homework/HW-Wireframe
+ * Purpose: Provide styles for first homework assignment (easy version), index.html
+ */
+
+
+/* Apply margin: 0 auto; to make sure the content is centered */
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+/* Apply styles to main tags */
+header {
+	margin-top: 12px;
+	margin-bottom: 12px;
+	padding: 0px 7px;
+}
+
+nav {
+	margin-bottom: 19px;
+}
+
+section {
+	width: 495px;
+}
+
+article {
+	margin: 0px 9px 9px 9px;
+	height: 68%;
+}
+
+aside {
+	margin-left: 19px;
+	margin-bottom: 19px;
+}
+
+footer {
+	background-color: #777;
+}
+
+h1 {
+	padding: 9px;
+	color: #939393;
+}
+/* The following h5 and p elements need special instructions, 
+ * as they are nested inside of the section & article containers.
+ */
+h5 {
+	margin: 0;
+	padding: 31px;
+	font-size: 18px;
+	color: #939393;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p {
+	margin-top: 10px;
+	padding: 9px;
+	color: #939393;
+}
+/* Lay these out like a fake Bootstrap framework! */
+.col-12 {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+	width: 100%;
+}
+
+.col-7 {
+	width: 495px;
+}
+
+.col-5 {
+	width: 446px;
+}
+/* Float the sections left, in case they don't stretch 100% */
+.columns {
+	position: relative;
+	float: left;
+}
+/* Give all panel(s) a light gray background color */
+.panel {
+	background-color: #ebebeb;
+}
+/* Give the main background and the nested article box a dark gray background color */
+.dk-gray {
+	background-color: #777;
+}
+/* Special padding for this one, as it is slightly more narrow than the other headings */
+.section-header {
+	padding-top: 20px;
+	padding-bottom: 0;
+}
+/* This one alse deserves special padding/margin treatment, and the text is lighter */
+.article-header {
+	padding-top: 16px;
+	padding-bottom: 12px;
+	margin-top: 20px;
+	color: #ebebeb;
+}
+/* Make sure that all readers can digest the most fascinating reading content on the planet... */
+.fascinating-reading-content {
+	padding: 0px 20px 5px 20px;
+}
+/* Take away default margin styling for h1 - it is too large */
+.no-margin {
+	margin: 0;
+}
+/* Center-align all box text */
+.text-center {
+	text-align: center;
+}
+/* For shorter panels... */
+.short {
+	height: 80px;
+}
+/* For taller panels... */
+.tall {
+	height: 220px;
+}
+/* Make sure that no content from the footer flows up into anybody else's business... */
+.clear {
+	clear: both;
+}
